@@ -27,8 +27,7 @@
     "typescript": "3.6.3"
   },
   "files": [
-    "dist/*",
-    "src/*"
+    "dist/*"
   ],
   "keywords": [
     "react",
@@ -40,7 +39,6 @@
   ],
   "license": "MIT",
   "main": "./dist/index.js",
-  "module": "./src/index.ts",
   "name": "@trejgun/material-ui-icons-social-networks",
   "peerDependencies": {
     "@material-ui/core": "^4.4.0",
