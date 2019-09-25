@@ -1,0 +1,65 @@
+{
+  "author": {
+    "email": "TrejGun+OpenSource@gmail.com",
+    "name": "TrejGun"
+  },
+  "bugs": {
+    "url": "https://github.com/TrejGun/trejgun-material-ui-icons-social-networks"
+  },
+  "description": "Set of social networks flat icons for Material UI",
+  "devDependencies": {
+    "@material-ui/core": "4.4.0",
+    "@types/react": "16.9.3",
+    "@types/react-dom": "16.9.1",
+    "@typescript-eslint/eslint-plugin": "2.3.1",
+    "@typescript-eslint/parser": "2.3.1",
+    "eslint": "6.4.0",
+    "eslint-config-standard": "14.1.0",
+    "eslint-import-resolver-ts": "0.4.0",
+    "eslint-plugin-import": "2.18.2",
+    "eslint-plugin-mocha": "6.1.1",
+    "eslint-plugin-node": "10.0.0",
+    "eslint-plugin-promise": "4.2.1",
+    "eslint-plugin-standard": "4.0.1",
+    "eslint-plugin-react": "7.14.3",
+    "react": "16.9.0",
+    "react-dom": "16.9.0",
+    "typescript": "3.6.3"
+  },
+  "files": [
+    "dist/*",
+    "src/*"
+  ],
+  "keywords": [
+    "react",
+    "material",
+    "icon",
+    "social",
+    "networkd",
+    "flaticon"
+  ],
+  "license": "MIT",
+  "main": "./dist/index.js",
+  "module": "./src/index.ts",
+  "name": "@trejgun/material-ui-icons-social-networks",
+  "peerDependencies": {
+    "@material-ui/core": "^4.4.0",
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TrejGun/trejgun-material-ui-icons-social-networks"
+  },
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint . --fix --ext .ts,.tsx",
+    "prebuild": "rm -rf dist/",
+    "prepublish": "npm run build"
+  },
+  "sideEffects": false,
+  "title": "Material UI social network flat icons",
+  "type": "module",
+  "types": "./dist/index.d.ts",
+  "version": "0.0.1"
+}
