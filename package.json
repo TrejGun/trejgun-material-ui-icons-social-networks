@@ -24,7 +24,7 @@
     "eslint-plugin-react": "7.16.0",
     "react": "16.10.1",
     "react-dom": "16.10.1",
-    "typescript": "3.6.3"
+    "typescript": "3.6.4"
   },
   "files": [
     "dist/*"
