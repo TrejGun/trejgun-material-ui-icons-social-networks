@@ -9,7 +9,7 @@
   "description": "Set of social networks flat icons for Material UI",
   "devDependencies": {
     "@material-ui/core": "4.5.1",
-    "@types/react": "16.9.9",
+    "@types/react": "16.9.10",
     "@types/react-dom": "16.9.2",
     "@typescript-eslint/eslint-plugin": "2.5.0",
     "@typescript-eslint/parser": "2.5.0",
