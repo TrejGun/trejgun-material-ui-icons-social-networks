@@ -65,7 +65,7 @@ const Demo: React.FC = () => {
   const classes = useStyles();
 
   return (
- style={{width: 610}}>
+    <Grid>
       <Button variant="outlined" className={classes.button}>
         <Badoo className={classes.icon} /> Badoo
       </Button>
