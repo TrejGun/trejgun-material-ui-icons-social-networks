@@ -1,116 +1,12 @@
 {
-  "extends": [
-    "standard",
-    "eslint:recommended",
-    "plugin:@typescript-eslint/eslint-recommended",
-    "plugin:@typescript-eslint/recommended",
-    "plugin:@typescript-eslint/recommended-requiring-type-checking",
-    "plugin:import/errors",
-    "plugin:import/typescript",
-    "plugin:import/warnings",
-    "plugin:react/recommended"
-  ],
-  "parser": "@typescript-eslint/parser",
-  "parserOptions": {
-    "ecmaFeatures": {
-      "jsx": true
-    },
-    "ecmaVersion": 9,
-    "project": "./tsconfig.json",
-    "sourceType": "module"
-  },
-  "plugins": [
-    "@typescript-eslint",
-    "import",
-    "standard",
-    "react"
-  ],
   "root": true,
-  "rules": {
-    "arrow-parens": [
-      "error",
-      "as-needed"
-    ],
-    "comma-dangle": [
-      2,
-      "always-multiline"
-    ],
-    "import/newline-after-import": [
-      "error",
-      {
-        "count": 2
-      }
-    ],
-    "indent": [
-      "error",
-      2
-    ],
-    "linebreak-style": [
-      "error",
-      "unix"
-    ],
-    "max-len": [0],
-    "multiline-ternary": [
-      "error",
-      "always-multiline"
-    ],
-    "no-console": [
-      "error"
-    ],
-    "no-multiple-empty-lines": [
-      "error",
-      {
-        "max": 2,
-        "maxEOF": 1
-      }
-    ],
-    "no-unused-vars": [
-      "error"
-    ],
-    "no-void": "off",
-    "object-curly-spacing": [
-      "error",
-      "never"
-    ],
-    "operator-linebreak": [
-      "error",
-      "before"
-    ],
-    "quotes": [
-      "error",
-      "double"
-    ],
-    "react/display-name": [
-      0
-    ],
-    "react/jsx-closing-bracket-location": [
-      1,
-      "line-aligned"
-    ],
-    "react/jsx-tag-spacing": [
-      "error",
-      {
-        "afterOpening": "never",
-        "beforeClosing": "allow",
-        "beforeSelfClosing": "always",
-        "closingSlash": "never"
-      }
-    ],
-    "react/jsx-wrap-multilines": "error",
-    "semi": [
-      "error",
-      "always"
-    ]
+  "parserOptions": {
+    "project": "./tsconfig.json"
   },
-  "settings": {
-    "import/resolver": {
-      "ts": {
-        "alwaysTryTypes": true
-      }
-    },
-    "react": {
-      "pragma": "React",
-      "version": "16.9.0"
-    }
+  "extends": [
+    "@trejgun/eslint-config/presets/tsx"
+  ],
+  "rules": {
+    "max-len": [0]
   }
 }

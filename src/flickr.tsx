@@ -1,9 +1,9 @@
-import * as React from "react";
+import React, {FC} from "react";
 import {SvgIcon} from "@material-ui/core";
 import {SvgIconProps} from "@material-ui/core/SvgIcon/SvgIcon";
 
 
-export const Flickr: React.FC<SvgIconProps> = props => {
+export const Flickr: FC<SvgIconProps> = props => {
   return (
     <SvgIcon {...props}>
       <rect fill="#E12C92" x="0" y="0" width="23.9858421" height="23.9858421" />

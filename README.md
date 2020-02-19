@@ -11,7 +11,7 @@ npm install @trejgun/material-ui-icons-social-networks
 ## Usage
 
 ```typescript
-import * as React from "react";
+import React, { FC } from "react";
 import {Grid, Button, makeStyles} from "@material-ui/core";
 
 import {
@@ -61,7 +61,7 @@ import useStyles = makeStyles(
 );
 
 
-const Demo: React.FC = () => {
+const Demo: FC = () => {
   const classes = useStyles();
 
   return (

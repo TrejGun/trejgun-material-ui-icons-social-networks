@@ -6,24 +6,33 @@
   "bugs": {
     "url": "https://github.com/TrejGun/trejgun-material-ui-icons-social-networks"
   },
+  "dependencies": {
+    "@material-ui/core": "^4.9.3",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
   "description": "Set of social networks flat icons for Material UI",
   "devDependencies": {
-    "@material-ui/core": "4.7.1",
-    "@types/react": "16.9.14",
-    "@types/react-dom": "16.9.4",
+    "@trejgun/eslint-config": "0.0.7",
+    "@types/react": "16.9.20",
+    "@types/react-dom": "16.9.5",
     "@typescript-eslint/eslint-plugin": "2.10.0",
     "@typescript-eslint/parser": "2.10.0",
-    "eslint": "6.7.2",
+    "eslint": "6.8.0",
+    "eslint-config-prettier": "6.10.0",
     "eslint-config-standard": "14.1.0",
     "eslint-import-resolver-ts": "0.4.2",
     "eslint-plugin-import": "2.18.2",
     "eslint-plugin-mocha": "6.2.2",
     "eslint-plugin-node": "10.0.0",
+    "eslint-plugin-prettier": "3.1.2",
     "eslint-plugin-promise": "4.2.1",
-    "eslint-plugin-standard": "4.0.1",
     "eslint-plugin-react": "7.17.0",
-    "react": "16.12.0",
-    "react-dom": "16.12.0",
+    "eslint-plugin-react-hooks": "2.4.0",
+    "eslint-plugin-standard": "4.0.1",
+    "husky": "4.2.3",
+    "lint-staged": "10.0.7",
+    "prettier": "1.19.1",
     "typescript": "3.7.2"
   },
   "files": [
@@ -40,11 +49,6 @@
   "license": "MIT",
   "main": "./dist/index.js",
   "name": "@trejgun/material-ui-icons-social-networks",
-  "peerDependencies": {
-    "@material-ui/core": "^4.4.0",
-    "react": "^16.8.0",
-    "react-dom": "^16.8.0"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/TrejGun/trejgun-material-ui-icons-social-networks"
