@@ -48,7 +48,7 @@ import {
 } from "@trejgun/material-ui-icons-social-networks";
 
 
-import useStyles = makeStyles(
+const useStyles = makeStyles(
  theme => ({
    button: {
      margin: theme.spacing(1),
