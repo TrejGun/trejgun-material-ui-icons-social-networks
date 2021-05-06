@@ -13,7 +13,7 @@
   },
   "description": "Set of social networks flat icons for Material UI",
   "devDependencies": {
-    "@trejgun/eslint-config": "0.1.5",
+    "@trejgun/eslint-config": "0.1.6",
     "@types/react": "17.0.5",
     "@types/react-dom": "17.0.3",
     "@typescript-eslint/eslint-plugin": "4.22.1",
