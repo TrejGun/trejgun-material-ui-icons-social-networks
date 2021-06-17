@@ -32,7 +32,7 @@
     "husky": "4.3.8",
     "lint-staged": "10.5.4",
     "prettier": "2.3.1",
-    "typescript": "4.3.3"
+    "typescript": "4.3.4"
   },
   "files": [
     "dist/*"
